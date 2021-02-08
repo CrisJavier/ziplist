@@ -1,3 +1,5 @@
+const _ = require('underscore');
+
 function zipList(arr1, arr2) {
   const list = [];
   for (let i = 0; i < arr1.length && i < arr2.length; i++) {
